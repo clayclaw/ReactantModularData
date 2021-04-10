@@ -1,4 +1,4 @@
-name: ExampleProject
-main: io.github.clayclaw.example.ExamplePlugin
+name: ReactantX-ModularData
+main: dev.reactant.modulardata
 version: 0.0.1
 api-version: 1.14

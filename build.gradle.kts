@@ -2,7 +2,7 @@ import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 import java.net.URI
 
-group = "io.github.clayclaw"
+group = "dev.reactant"
 version = "0.0.1"
 
 val kotlinVersion = "1.3.61"

@@ -1,4 +1,4 @@
 name: ReactantX-ModularData
-main: dev.reactant.modulardata
+main: dev.reactant.modulardata.ModularDataLoader
 version: 0.0.1
 api-version: 1.14

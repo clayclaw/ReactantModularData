@@ -19,6 +19,14 @@ class DataModulesAccessor(
     val commitChanges: () -> Any
 ) {
     protected val parser get() = ModularItemGsonGetter.gsonParser
+
+    /**
+     * Check if a module exist
+     */
+    inline fun <reified T: Any> has(): Boolean {
+        return this.dataContainerGetter().has(getModuleKey(T::class), PersistentDataType.STRING)
+    }
+
     /**
      * Get a module, null if not exist
      */
